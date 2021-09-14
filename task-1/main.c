@@ -2,15 +2,27 @@
 
 #include <stdio.h>
 
+int isSquare(int number){
+    // int i = 0 below if you want to include 0 in the sequence
+    for (int i = 1; i*i <= number; i++)
+    {
+        if (number == i*i) return 1;
+    }
+
+    return 0;
+}
+
 int main() {
-    int number;
-    printf("Enter number #1:\n");
-    scanf("%d", &number);
+    int number, squareCount = 0;
 
-    printf("Padvigubintas skaicius:\n%d\n", number*2);
+    do
+    {
+        scanf("%d", &number);
 
-    printf("Enter number #2:\n");
-    scanf("%d", &number);
+        // Validate here
 
-    printf("Patrigubintas skaicius:\n%d\n", number*3);
+        if (isSquare(number)) squareCount++;
+    } while (number != 0);
+    
+    printf("%d\n", squareCount);
 }
