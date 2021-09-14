@@ -1,4 +1,0 @@
-Enter number #1:
-Padvigubintas skaicius:
-Enter number #2:
-Patrigubintas skaicius:
