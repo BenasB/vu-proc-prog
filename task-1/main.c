@@ -34,20 +34,7 @@ int main() {
         int sign = 1;
         if (c == '-'){
             sign = -1;
-
-            // Check if the following char is a digit (negative int, valid number)
             c = getchar();
-            if (!isDigit(c)){
-
-                printf("Bad input. Please try again and enter an integer.\n");
-                
-                // Skip until the end of string
-                while(!(c == ' ' || c == '\n')){
-                    c = getchar();
-                }
-
-                continue;
-            }
         }
         
         number = 0;
@@ -59,9 +46,9 @@ int main() {
                 printf("Bad input. Please try again and enter an integer.\n");
 
                 // Skip until the end of string
-                do{
+                while(!(c == ' ' || c == '\n')){
                     c = getchar();
-                }while(!(c == ' ' || c == '\n'));
+                }
 
                 number = -1;
                 break;
