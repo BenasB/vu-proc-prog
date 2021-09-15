@@ -1,0 +1,2 @@
+Amount of squares that occured:
+Enter a sequence of integers that terminates with a 0:
