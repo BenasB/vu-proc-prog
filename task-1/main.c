@@ -2,6 +2,9 @@
 
 #include <stdio.h>
 
+#define NUMBER_OFFSET 48
+#define DIGIT_COUNT 10
+
 int isSquare(int number){
     // int i = 0 below if you want to include 0 in the sequence
     for (int i = 1; i*i <= number; i++)
@@ -12,14 +15,59 @@ int isSquare(int number){
     return 0;
 }
 
+int isDigit(char c){
+    return (c >= NUMBER_OFFSET) && (c < NUMBER_OFFSET + DIGIT_COUNT);
+}
+
 int main() {
-    int number, squareCount = 0;
+    int number = -1, squareCount = 0;
 
     do
     {
-        scanf("%d", &number);
+        char c;
+        do{
+            c = getchar();
+        }while(c == ' ' || c == '\n');
 
-        // Validate here
+        int sign = 1;
+        if (c == '-'){
+            sign = -1;
+
+            // Check if the following char is a digit (negative int)
+            c = getchar();
+            if (!isDigit(c)){
+
+                printf("Bad input. Please try again and enter an integer.\n");
+                
+                // Skip until the end of string
+                while(!(c == ' ' || c == '\n')){
+                    c = getchar();
+                }
+
+                continue;
+            }
+        }
+        
+        number = 0;
+
+        do
+        {
+            if (!isDigit(c))
+            {
+                printf("Bad input. Please try again and enter an integer.\n");
+
+                // Skip until the end of string
+                do{
+                    c = getchar();
+                }while(!(c == ' ' || c == '\n'));
+
+                number = -1;
+                break;
+            }
+
+            number = number * DIGIT_COUNT + (c - NUMBER_OFFSET) * sign;
+            c = getchar();
+        }while (!(c == ' ' || c == '\n'));
 
         if (isSquare(number)) squareCount++;
     } while (number != 0);

@@ -56,14 +56,29 @@ DUPLICATE SQUARES
 ILLEGAL CHARACTER
 5 4 a 8 0
 
+Bad input. Please try again and enter an integer.
 1
 
 ILLEGAL CHARACTERS
 9 4 a 8 b c 0
 
+Bad input. Please try again and enter an integer.
+Bad input. Please try again and enter an integer.
+Bad input. Please try again and enter an integer.
 2
 
 ILLEGAL STRINGS
 lol 1 test 2 4 15 49 0
 
+Bad input. Please try again and enter an integer.
+Bad input. Please try again and enter an integer.
 3
+
+BAD INPUT
+
+37AS 9 -a95 1 - 0
+
+Bad input. Please try again and enter an integer.
+Bad input. Please try again and enter an integer.
+Bad input. Please try again and enter an integer.
+2
