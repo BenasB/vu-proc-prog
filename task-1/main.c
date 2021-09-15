@@ -22,6 +22,8 @@ int isDigit(char c){
 int main() {
     int number = -1, squareCount = 0;
 
+    printf("Enter a sequence of integers that terminates with a 0:\n");
+
     do
     {
         char c;
@@ -33,7 +35,7 @@ int main() {
         if (c == '-'){
             sign = -1;
 
-            // Check if the following char is a digit (negative int)
+            // Check if the following char is a digit (negative int, valid number)
             c = getchar();
             if (!isDigit(c)){
 
@@ -72,5 +74,5 @@ int main() {
         if (isSquare(number)) squareCount++;
     } while (number != 0);
     
-    printf("%d\n", squareCount);
+    printf("Amount of squares that occured: %d\n", squareCount);
 }
