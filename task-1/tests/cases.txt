@@ -76,8 +76,9 @@ Bad input. Please try again and enter an integer.
 
 BAD INPUT
 
-37AS 9 -a95 1 - 0
+37AS 9 -a95 -97a1 1 - 0
 
+Bad input. Please try again and enter an integer.
 Bad input. Please try again and enter an integer.
 Bad input. Please try again and enter an integer.
 Bad input. Please try again and enter an integer.
