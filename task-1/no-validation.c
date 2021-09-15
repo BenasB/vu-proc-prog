@@ -20,7 +20,7 @@ int isDigit(char c){
 }
 
 int main() {
-    int number = -1, squareCount = 0;
+    int number = 0, squareCount = 0;
 
     printf("Enter a sequence of integers that terminates with a 0:\n");
 

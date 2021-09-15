@@ -20,16 +20,16 @@ int isDigit(char c){
 }
 
 int main() {
-    int number = -1, squareCount = 0;
+    int number = 0, squareCount = 0;
 
     printf("Enter a sequence of integers that terminates with a 0:\n");
 
     do
     {
-        char c;
-        do{
+        char c = getchar();
+        while(c == ' ' || c == '\n'){
             c = getchar();
-        }while(c == ' ' || c == '\n');
+        }
 
         int sign = 1;
         if (c == '-'){
