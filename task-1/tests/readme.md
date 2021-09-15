@@ -23,6 +23,8 @@ Failed: 1
 * Mandatory `cases.txt` file that describes your test cases
 * Optional `ignore.txt` file that describes strings to be ignored from the received output of the program.
 
+These files should be located in the `tests/` directory.
+
 The example below contains 3 test cases where every one of them have an input (it can span 1 or more lines) and an expected output (it can also span 1 or more lines)
 
 ### `cases.txt` format:
