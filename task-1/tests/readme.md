@@ -2,7 +2,7 @@
 
 ## How to run it
 
-Just execute `tests/run_tests.sh`. After it, you will receive the testing result summary, e.g.
+Just execute `tests/run_tests.sh <path/to/file.c>` where `<path/to/file.c>` is a path relative to the project root directory. After it, you will receive the testing result summary, e.g.
 
 ```
 1. SMALL: PASSED
