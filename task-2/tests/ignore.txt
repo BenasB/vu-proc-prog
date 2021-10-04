@@ -1,0 +1,2 @@
+Enter array size:
+Enter array elements:

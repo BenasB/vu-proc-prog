@@ -1,0 +1,69 @@
+SIMPLE_CASE
+4
+13 -2 -9 4
+
+-2 -9 13 4
+
+NO_MOVES
+5
+-2 -498 -13 2 0
+
+-2 -498 -13 2 0
+
+ONLY_NEGATIVES
+4
+-5 -4 -2 -4
+
+-5 -4 -2 -4
+
+ONLY_NON_NEGATIVES
+4
+3 0 4564 21
+
+3 0 4564 21
+
+ARRAY_SIZE_ONE_POSITIVE
+1
+5
+
+5
+
+ARRAY_SIZE_ONE_NEGATIVE
+1
+-5
+
+-5
+
+ARRAY_SIZE_ZERO
+0
+2
+4 -1
+
+Bad input
+-1 4
+
+NEGATIVE_ARRAY_SIZE
+-4
+8
+4 -849 -8456 123 47 -456 456 0
+
+Bad input
+-849 -8456 -456 4 123 47 456 0
+
+BAD_ARRAY_ELEMENT
+4
+14 -4 84a+das4 11 -5
+
+Bad input
+-4 -5 14 11
+
+BAD_ARRAY_ELEMENTS
+5
+-453- 123+14 321-45 456 -4 a - 11 0 -1
+
+Bad input
+Bad input
+Bad input
+Bad input
+Bad input
+-4 -1 456 11 0 
