@@ -6,7 +6,7 @@
 
 int* filter(int array[], int arraySize, int *filteredSize, int condition(int)){
     // Based on: https://stackoverflow.com/a/11656585
-    int *filtered = malloc(arraySize);
+    int *filtered = malloc(sizeof(int) * arraySize);
     *filteredSize = 0;
 
     if(!filtered)
