@@ -45,7 +45,7 @@ Symbol *processLine(Line line)
         }
         else
         {
-            // We're finding a word, keep looking for it's end
+            // We're finding a word, keep looking for its end
             wordEnd = i;
         }
     }
