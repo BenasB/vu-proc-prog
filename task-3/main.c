@@ -10,7 +10,7 @@ int main()
     FileName inputName;
     printf("Enter input file name: ");
 
-    // Dynamically limit file name with so that it doesn't go out of bounds
+    // Dynamically limit file name length so that it doesn't go out of bounds
     // https://stackoverflow.com/a/28460098
     char fileNameFormat[8];
     snprintf(fileNameFormat, sizeof(fileNameFormat), "%%%ds", MAX_FILE_NAME - 1);
