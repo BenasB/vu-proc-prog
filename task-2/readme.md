@@ -1,10 +1,10 @@
-#  Užduotis
+# 2 Užduotis
 
 ### Sąlyga
 
 10 variantas
 
-> Įvesti sveiką skaičių N. Įvesti N sveikų skaičių. Pertvarkyti juos taip, kad pradžioje būtų visi neigiami elementai, o po jų neneigiami (pradinė neigiamų ir neneigiamų tvarka turi būti išsaugota), ir išvesti. 
+> Įvesti sveiką skaičių N. Įvesti N sveikų skaičių. Pertvarkyti juos taip, kad pradžioje būtų visi neigiami elementai, o po jų neneigiami (pradinė neigiamų ir neneigiamų tvarka turi būti išsaugota), ir išvesti.
 
 ### Refleksija
 
