@@ -29,7 +29,7 @@ _Exception:_ indices such as `i, j, k`, etc.
 Make sure to put brackets on new lines as such:
 
 ```C
-int my_function (double variable)
+int myFunction (double variable)
 {
 
 }
