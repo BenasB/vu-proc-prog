@@ -12,6 +12,10 @@ Sukompiliuoti programai naudokite komandą `make` ir paleiskite atsiradusį `bin
 
 Sukompiliuoti testams naudokite komandą `make tests` ir paleiskite atsiradusį `bin/test` (be 's' gale) failą.
 
+### Kodavimo standartas
+
+Galite rasti [čia](./coding-style.md).
+
 ### Refleksija
 
 Užduotį spręsti sekėsi sėkmingai ir buvo gana linksma. Labai padėjo laiko susiplanavimas ir beveik visur tilpau į laiko rėmus (šiek tiek nuvertinau meniu sukūrimo užtrunkamą laiką). Testų vykdymas ir principas labai primityvus, tačiau manau, kad šiai užduočiai užteks. Su didelėmis problemomis programuodamas nesusidūriau, kadangi susiplanavau viską iš anksto. Maniau, jog nuskaitytų duomenų pavertimas į sąrašo elementus (struct) užtruks ilgiau, tačiau pasirodo tai nėra problematiška ir galima panaudoti `malloc`. Taip pat pavyko pernaudoti tam tikras dalis iš trečios užduoties, tad išnaudotas laikas sumažėjo. Šiaip linked list'as kaip duomenų struktūra man buvo seniai pažįstama, tad nebuvo sunku suprasti ir padaryti šią užduotį.
