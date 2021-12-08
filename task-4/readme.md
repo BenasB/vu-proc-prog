@@ -2,7 +2,7 @@
 
 ### Sąlyga
 
-9 variantas
+3 variantas
 
 > Sudaryti dvipusį sąrašą. Parašyti procedūrą, kuri išmeta iš sąrašo mažiausią elementą.
 
