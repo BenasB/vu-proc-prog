@@ -47,8 +47,9 @@ Use 4 spaces indentation.
 
 Write the asterisk `*` for pointers with the name, not the type:
 
-```C
-int *x;
+```diff
++ int *x;
+- int* x;
 ```
 
 ## Code structures
